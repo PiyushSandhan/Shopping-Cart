@@ -1,4 +1,4 @@
-Here's an example of a README file for a shopping cart website created using PHP, HTML, CSS, JavaScript, and Bootstrap:
+
 
 # Shopping Cart Website
 
