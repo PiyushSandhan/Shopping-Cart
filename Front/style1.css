@@ -5,19 +5,21 @@
   justify-content: center;
 }
 body{
-  background-color: bisque;
+  background-color:#FBA1B7;
 }
 input[type=number]
 {
 
   margin-left: 20px;
+  
 }
 input[type=text], input[type=password],input[type=number]{
   padding: 15px;
   margin: 5px 0 22px 20px;
   display: inline-block;
   border: none;
-  background: grey;
+  background: #FFD1DA;
+  border-radius: 20px;
  
 }
 
@@ -30,7 +32,7 @@ input[type=text]:focus, input[type=password]:focus {
   outline: none;
 }
 input::placeholder{
-  color:bisque;
+  color:rgb(46, 45, 45);
 }
 hr {
   border: 1px solid #f1f1f1;
@@ -38,7 +40,7 @@ hr {
 }
 
 #registerbtn {
-  background-color:gray;
+  background-color:#FFD1DA;
   color: rgb(20, 20, 20);
   padding: 10px 20px;
   margin: 8px 0px;
@@ -53,7 +55,7 @@ hr {
 
 
 .signin {
-  background-color: #f1f1f1;
+  background-color: #FEBBCC;
   text-align: center;
 }
 
