@@ -1,28 +1,43 @@
 * {box-sizing: border-box}
 
 .container {
-  padding: 16px;
+  padding: 50px ;
   justify-content: center;
+  align-items: center;
+  margin-left: 33%;
+  margin-right: 33%;
+  display: flex;
+ flex-direction: column;
+ border: 2px solid white;
+ 
+}
+p{
+  color: white;
 }
 body{
-  background-color:#FBA1B7;
+ background-color: bisque;
+  
 }
 input[type=number]
 {
 
   margin-left: 20px;
-  
 }
 input[type=text], input[type=password],input[type=number]{
   padding: 15px;
   margin: 5px 0 22px 20px;
   display: inline-block;
   border: none;
-  background: #FFD1DA;
-  border-radius: 20px;
+  background: #DCF2F1;
+  color: #232347;
+  width: 75%;
  
 }
-
+#ic{
+  background-color: #ddd;
+  height: 25px;
+  width: 25px;
+}
 element.style {
     width: 30%;
     margin-left: 15px;
@@ -30,35 +45,47 @@ element.style {
 input[type=text]:focus, input[type=password]:focus {
   background-color: #ddd;
   outline: none;
+
 }
 input::placeholder{
-  color:rgb(46, 45, 45);
+  color:#11235A;
 }
-hr {
+/* hr {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
-}
+} */
 
 #registerbtn {
-  background-color:#FFD1DA;
-  color: rgb(20, 20, 20);
+  background-color:#DCF2F1;
+  color: rgb(0, 0, 0);
+ justify-content: center;
+ display: flex;
+ align-items: center;
   padding: 10px 20px;
   margin: 8px 0px;
   border: none;
   cursor: pointer;
   opacity: 0.9;
-  margin-left: 157px;
   border-radius: 20px;
 }
 
+#registerbtn:hover{
+   box-shadow: 0.5 rem;
 
+}
 
 
 .signin {
-  background-color: #FEBBCC;
+  background-color: #f1f1f1;
   text-align: center;
 }
 
 input:hover::placeholder{
 color: black;
+}
+img{
+  width: 20px;
+}
+label{
+  color: #DCF2F1;
 }

@@ -6,14 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form</title>
     <link rel="stylesheet" href="style1.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-+d55XQme2B+hYHEvQ5H8Y6+NDJUvZCjz8GARtExsGG1ePqsDTSv8Cvq8nydPLRvLH1re66eGgtxlnoV+XrAqBQ==" crossorigin="anonymous" />
+
     <script src="script.js"></script>
     <style>
         .registerbtn:hover{
             background-color: white;
-            
-            
-
         }
+       body
+       {
+        background-image: url('pxfuel.jpg');
+       }
 
     </style>
     
@@ -22,28 +25,26 @@
 <body>
     <form action="http://localhost/pro/" target="_blank" name="form" onsubmit="return validate()">
     <div class="container">
-    
+   <img id="ic" src="C:\xampp\htdocs\pro\Front\circle-user-regular.svg" alt="user">
     <p>Please fill in this form to log in an account.</p>
     <br>
 
     <label for="email"><b>Email</b></label>
-    <input type="text" style="width: 30%; margin-left: 89px;" placeholder="Enter Email" name="email" id="email" required>
+    <input type="text"placeholder="Enter Email" name="email" id="email" required>
     <br>
     <label for ="number"><b>Mobile No.   </b></label>
-    <input type="text" style="width: 30%; margin-left: 55px;" placeholder="Enter Number" name="Number" id="Numberr" required>
+    <input type="text"  placeholder="Enter Number" name="Number" id="Numberr" required>
     <br>
     <label for="psw"><b>Password</b></label>
-    <input type="password" style="width: 30%; margin-left: 65px;" placeholder="Enter Password" name="psw" id="psw" required>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
 <br>
     <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" style="width: 30%;margin-left: 12px;" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+    <input type="password"  placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
     <br>
 
     <input type="submit" value="submit" id="registerbtn">
     </div>
     </form>
-
-    
     
 </body>
 </html>
